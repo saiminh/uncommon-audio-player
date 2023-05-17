@@ -1,0 +1,25 @@
+.uncommon-audio-player {
+
+  .uncommon-audio-player__controls .uncommon-audio-player__description {
+    text-indent: 0;
+
+    & label {
+      display: none;
+    }
+    & input {
+      background-color: transparent;
+      border: none;
+      color: var(--wp--preset--color--uncured-pink);
+      font-size: var(--wp--preset--font-size--body-m, 1rem);
+      font-family: var(--wp--preset--font-family--residenz-grotesk);
+    }
+    & .components-base-control__field {
+      margin: 0;
+    }
+  }
+  & .wp-block-audio {
+    width: 100%;
+    min-width: 0;
+    height: auto;
+  }
+}

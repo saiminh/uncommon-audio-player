@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/uncommon-audio-player",
+	"version": "0.1.0",
+	"title": "Uncommon Audio Player",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+  "attributes": {
+    "description": {
+      "type": "string",
+      "default": "Crispy Bacon"
+    }
+  },
+	"textdomain": "uncommon-audio-player",
+	"editorScript": "file:./index.js",
+  "viewScript": "file:./view.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
