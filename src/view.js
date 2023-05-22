@@ -1,4 +1,4 @@
-window.addEventListener('load', () => {
+window.addEventListener('DOMContentLoaded', () => {
 
   const players = document.querySelectorAll('.uncommon-audio-player');
   players.forEach((player) => {
