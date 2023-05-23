@@ -1,10 +1,13 @@
 window.addEventListener('DOMContentLoaded', () => {
 
   const players = document.querySelectorAll('.uncommon-audio-player');
+  if (players.length === 0) return;
+
   players.forEach((player) => {
 
     const onOffButton = player.querySelector('.uncommon-audio-player__controls');
     const audio = player.querySelector('audio');
+    if (!audio) return;
     
     setTimeout(() => {
       if (!audio.paused) {
